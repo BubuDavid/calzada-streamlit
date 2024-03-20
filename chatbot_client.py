@@ -16,7 +16,7 @@ class Client:
         response_message = response_message.strip()
         return self.create_stream(response_message)
 
-    def create_stream(self, message: str | list[str]):
+    def create_stream(self, message):
         if isinstance(message, str):
             message = message.split()
             message = " ".join(message)
