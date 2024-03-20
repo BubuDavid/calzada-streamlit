@@ -1,0 +1,7 @@
+transformers
+pillow
+torch
+requests
+matplotlib
+streamlit
+pylint
